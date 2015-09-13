@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-seatgeek-react-standard",
+  "version": "0.0.0",
+  "description": "An ESLint configuration for SeatGeek's React code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration"
+  ],
+  "author": "Gareth Tan (http://garethtan.com/)",
+  "license": "BSD2",
+  "bugs": {
+    "url": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard/issues"
+  },
+  "homepage": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard",
+  "dependencies": {
+    "eslint": "^1.1.0",
+    "eslint-plugin-react": "^3.3.2"
+  }
+}
