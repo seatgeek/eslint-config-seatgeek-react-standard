@@ -1,0 +1,1 @@
+# SeatGeek ESLint React Configuration
