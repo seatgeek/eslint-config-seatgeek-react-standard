@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard",
   "dependencies": {
-    "eslint": "^1.1.0",
-    "eslint-plugin-react": "^3.3.2"
+    "eslint": "^2.1.0",
+    "eslint-plugin-react": "^3.16.1"
   }
 }
