@@ -14,7 +14,6 @@
     "react/no-direct-mutation-state": 2,
     "react/no-is-mounted": 2,
     "react/no-unknown-property": 1,
-    "react/prefer-es6-class": [2, "never"],
     "react/react-in-jsx-scope": 2,
     "react/self-closing-comp": 2
   }
