@@ -2,6 +2,11 @@
   "extends": [
     "prettier/react"
   ],
+
+  "plugins": [
+    "react"
+  ],
+
   "rules": {
     "react/jsx-boolean-value": 2,
     "react/jsx-key": 2,
