@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seatgeek-react-standard",
-  "version": "3.0.0",
+  "version": "5.0.0",
   "description": "An ESLint configuration for SeatGeek's React code.",
   "main": "index.js",
   "files": [
