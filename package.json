@@ -3,8 +3,12 @@
   "version": "3.0.0",
   "description": "An ESLint configuration for SeatGeek's React code.",
   "main": "index.js",
+  "files": [
+    "eslintrc.json",
+    "index.js"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint . --cache"
   },
   "repository": {
     "type": "git",
@@ -15,15 +19,21 @@
     "configuration"
   ],
   "author": "Gareth Tan (http://garethtan.com/)",
-  "license": "BSD2",
+  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard/issues"
   },
   "homepage": "https://github.com/seatgeek/eslint-config-seatgeek-react-standard",
-  "dependencies": {
-    "eslint": "3.19.0",
-    "eslint-plugin-prettier": "2.0.1",
-    "eslint-plugin-react": "6.10.3",
-    "prettier": "1.0.2"
+  "peerDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.7.4"
   }
 }
